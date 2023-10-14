@@ -22,7 +22,7 @@ pip install matplotlib
 pip install astropy
 ```
 
-The last 3lines are optional, i just needed these packages for testing.
+The last 3 lines are optional, i just needed these packages for testing.
 
 5. Start Jupyter
 
@@ -32,7 +32,7 @@ jupyter notebook
 
 This will start a local web server at:
 
-http://localhost:8888/tree?token=<token>
+http://localhost:8888/tree?token=sfsdfsdfsdfsfsaf
 
 Look for the URL printed on the command line.
 
