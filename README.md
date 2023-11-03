@@ -1,17 +1,17 @@
 # Learn Jupyter
 
-Follow the following steps to create a local jupyter environment.
+Follow the following steps to create a local jupyter environment using `Conda`
 
 1. Install anaconda or miniconda first
 2. Run `conda env list` This should just list one evironment called base.
-3. On windows, start Anaconda command prompt as admin and cd into your project directory. Then setup the env using conda:
+3. On windows, start Anaconda command prompt as admin and cd into your project directory. Then setup the env using conda
 
 ```
 conda create --yes --name learnjupyter
 conda activate learnjupyter
 ```
 
-4. Now that you are in the `learnjupyter` env, install jupyter labs by running the following commands. I prefer this over user Jupyter Notebook
+4.1 Now that you are in the `learnjupyter` env, install jupyter labs by running the following commands. I prefer this over user Jupyter Notebook
 
 ```
 conda install -y -c conda-forge jupyterlab
@@ -22,12 +22,20 @@ pip install matplotlib
 pip install astropy
 ```
 
-The last 3 lines are optional, i just needed these packages for testing.
+4.2 Install using pip
+
+```commandline
+python -m venv venv
+.\venv\Scripts\activate
+pip install jupyterlab
+```
 
 5. Start Jupyter
 
 ```
-jupyter notebook
+juypter lab
+-- OR--
+jupter notebook
 ```
 
 This will start a local web server at:
