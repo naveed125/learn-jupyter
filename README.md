@@ -2,7 +2,7 @@
 
 Follow the following steps to create a local jupyter environment using `Conda`
 
-1. Install anaconda or miniconda first
+1. Install anaconda first
 2. Run `conda env list` This should just list one evironment called base.
 3. On windows, start Anaconda command prompt as admin and cd into your project directory. Then setup the env using conda
 
